@@ -1,0 +1,7 @@
+已安装好Anaconda  
+1.加快路径
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+2.一键命令
+conda create --name tf_gpu_env python=3.6  tensorflow-gpu   （后面可以列举更多模块）

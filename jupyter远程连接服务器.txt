@@ -1,0 +1,10 @@
+'sha1:0c9d5d00f6b7:e17394da2ad2c149cd17ff458cd7ab851d3c1cc1'
+
+c.NotebookApp.ip='*'
+c.NotebookApp.password = u'sha1:0c9d5d00f6b7:e17394da2ad2c149cd17ff458cd7ab851d3c1cc1'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port =1234
+c.IPKernelApp.pylab = 'inline'
+
+
+ssh -N -f -L localhost:1234:localhost:1234 zhangjingsen@183.174.228.131
